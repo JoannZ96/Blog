@@ -4,13 +4,4 @@
  * required.
  */
 
-drop table if exists test;
-
-create table test (
-    id integer not null primary key,
-    stuff text  
-);
-
-insert into test (stuff) values
-    ('Things'),
-    ('More things');
+drop table if exists users;
