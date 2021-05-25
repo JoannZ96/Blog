@@ -1,3 +1,3 @@
 const sqlite = require("sqlite");
-const dbPromise = sqlite.open("./project-database.db");
+const dbPromise = sqlite.open("./group-project.db");
 module.exports = dbPromise;
